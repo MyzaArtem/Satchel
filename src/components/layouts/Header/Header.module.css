@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 160px;
+  background-color: #000;
+}
+
+.findform{
+  margin-right: 20px;
+}
+
+.logo{
+  width: 184px;
+  height: 56px;  
+  flex-shrink: 0;
+}
+
+.linkgroup{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.linkgroup a{
+  display: inline-block;
+  margin-left: 82px;
+  color: #333;
+  text-decoration: none;
+}
+
+.linkgroup a:first-child {
+  margin-left: 0; /* удаляем левый отступ у первой ссылки */
+}
+

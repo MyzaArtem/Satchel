@@ -1,0 +1,8 @@
+.container{
+    text-decoration: none;
+    color: #111;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 34px;
+    width: 1190px;
+}

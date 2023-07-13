@@ -1,0 +1,11 @@
+.productList{
+  margin-left: 52px;
+  font-size: 21px;
+  width: 250px;
+  border: 1px solid #111;
+  padding: 10px;
+}
+
+.btn{
+  display: block;
+}

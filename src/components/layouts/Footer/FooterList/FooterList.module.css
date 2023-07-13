@@ -1,0 +1,33 @@
+.head {
+    color: #fff;
+    font-size: 20px; 
+    margin-bottom: 0.5em; 
+}
+
+.footeritem{
+    min-width: 250px;
+    min-height: 150px;
+    margin: 0px 40px;
+}
+  
+.footerlist{
+    list-style-type: none; /* устанавливаем стиль маркера списка */
+    margin: 0; /* убираем отступы по умолчанию */
+    padding: 0; /* убираем отступы между элементами списка */
+}
+  
+.footerlistitem::before{
+    content: "•"; /* устанавливаем символ маркера списка */
+    color: #fff; /* устанавливаем цвет маркера списка */
+    display: inline-block; /* делаем маркер блочным элементом */
+    width: 1em; /* задаем ширину маркера списка */
+    margin-left: -1em; /* устанавливаем отрицательный левый отступ для маркера списка */
+    font-size: 24px; /* задаем размер шрифта для маркера списка */
+    line-height: 0.8em; /* задаем высоту строки для маркера списка */
+    vertical-align: middle; /* выравниваем маркер списка по центру */
+}
+
+.footerlistitem a{
+    color: #fff;
+    text-decoration: none;
+}

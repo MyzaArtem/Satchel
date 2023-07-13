@@ -1,0 +1,29 @@
+.item{
+    margin: 0 24px 24px 24px;
+    width: 224px;
+    height: 416;
+}
+
+.image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+}
+
+.info{
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.info h2{
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.info p{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
